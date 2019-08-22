@@ -10,6 +10,9 @@ public class CartRestController {
 	
 	@GetMapping
 	public String f1() {
+		
+	//	String s1="http://localhost8082/api/carts";
+		
 		return "Hello from CartRestComtroller";
 	}
 	
